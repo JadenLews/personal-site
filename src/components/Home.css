@@ -1,0 +1,56 @@
+.backgroundblack { 
+    z-index: -2;
+    position: absolute;
+    top: -40vh; 
+    left: 0vw;
+    width: 100vw;
+    min-height: 200vh;
+    background-color: #000;
+  }
+.background { 
+  z-index: -1;
+  position: absolute;
+  top: 0vh; 
+  left: 0vw;
+  width: 100vw;
+  min-height: 200vh;
+  background-image: url('./pictures/backy.avif');
+  background-position: center;
+  background-size: cover; 
+  animation: fadeIn .5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.topwords {
+    float: center;
+    /*border: 3px solid #a73434;*/
+    text-align: center;
+    margin-top: 100px;
+}
+.topwords h1{
+    font-size: 50px;
+}
+.genres {
+    text-align: center;
+    font-size: 30px;
+}
+.images {
+    position: relative;
+    top: 50px;
+    height: 100px;
+    float: center;
+}
+.images img{
+    width: 60px;
+    position: absolute;
+    left: calc(50vw - 30px)
+}
+.git img{
+    left: calc(40vw - 90px);
+}
+.linkedin img{
+    left: calc(60vw + 30px);
+}

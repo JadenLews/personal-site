@@ -1,0 +1,40 @@
+.contactbackground{
+    background-color: black;
+    position: absolute;
+    width: 100vw;
+    height: 50px;
+    z-index: -1;
+    top: 0px;
+    box-shadow: 0 10px 8px -4px rgba(0, 0, 0, 0.5);
+}
+.contactbackgrounddown{
+    background-color: rgb(37, 37, 37);
+    position: absolute;
+    width: 100vw;
+    height: 150vh;
+    z-index: -2;
+    top: 50px;
+}
+.contacttitle {
+    text-align: center;
+    color: aliceblue;
+    margin-top: 100px;
+}
+.col-md-6 {
+    margin-bottom: 20px;
+
+}
+.contactimages img{
+    width: 60px;
+    margin-bottom: 15px;
+}
+.contactimages {
+    text-align: center;
+    position: center;
+}
+.contactimages h2{
+    color: aliceblue;
+}
+.contactimages h3{
+    color: aliceblue;
+}

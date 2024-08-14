@@ -1,0 +1,26 @@
+/* src/components/Navbar2.css */
+.topnav {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .topnav p a {
+    margin-right: calc(5px + 5vw); /* Adjust the value as needed */
+    text-decoration: none; /* Optional: to remove underline from links */
+    color: inherit;
+    transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition for color change */
+  }
+  
+  .topnav p a:hover {
+    color: #ffcc00; /* Change to desired hover color */
+  }
+  
+  .topnav p a.active {
+    color: #ff6600; /* Change to desired active color */
+  }
+  
+  .topnav p {
+    color: aliceblue;
+  }
+
+

@@ -1,0 +1,113 @@
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+    text-align: center;
+    background-color: rgb(34, 40, 49);
+    box-shadow: 0 10px 8px -4px rgba(0, 0, 0, 0.5);
+    margin-top: 50px;
+    margin-right: 0px;
+  }
+.jumbotron img{
+    width: calc(5vw + 100px);
+    height: calc(5vw + 100px);
+    float: center;
+    margin-right: 15px;
+    border-radius: 50%; 
+    object-fit: cover; 
+    border: 3px solid #a73434;
+}
+.titleabout{
+    color: aliceblue;
+}
+.paragraphabout {
+    color: aliceblue;
+}
+.aboutpagebackground {
+    position: absolute;
+    width: 100vw;
+    height: 275vh;
+    z-index: -2;
+    top: -50px;
+    background-color: rgb(57, 62, 70);
+}
+  .text-jumbotron {
+    flex: 1; /* Take remaining space */
+  }
+  
+  @media (max-width: 576px) {
+    .jumbotron {
+      flex-direction: column; /* Stack image and text vertically */
+    }
+  
+    .jumbotron img{
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+
+  .imagetext img {
+    float: left; 
+    margin-right: 0px; 
+    margin-bottom: 5px;
+    margin-top: 0px;
+    border-radius: 50%; 
+    width: 125px; 
+    height: 125px; 
+    object-fit: cover; 
+    border: 3px solid #a73434;
+  }
+  .col-md-6 {
+    text-align: center;
+  }
+  .col-md-6 h3{
+    color: rgb(238, 238, 238);
+  }
+  .boxes{
+    margin-top: 50px;
+  }
+  .boxes h1{
+    color: rgb(238, 238, 238);
+  }
+  .boxes h2{
+    color: rgb(238, 238, 238);
+    font-size: 18px;
+  }
+  .boxes h3{
+    color: rgb(238, 238, 238);
+    font-size: 16px;
+  }
+
+  .info-box {
+    padding: 40px;
+    margin-left: -10px;
+  }
+  .info-box h1{
+    color: rgb(238, 238, 238);
+  }
+  
+  .info-item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff; /* White border for the lines */
+    padding: 10px 0;
+    font-size: 18px; /* Adjust size as needed */
+  }
+  
+  .info-item .label {
+    color: rgb(0, 173, 181); /* Color for labels */
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .info-item span:not(.label) {
+    color: rgb(238, 238, 238); /* Color for values */
+  }
+  
+  @media (max-width: 768px) {
+    .info-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }

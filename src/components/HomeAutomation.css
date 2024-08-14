@@ -1,0 +1,15 @@
+.homeautoback{
+    position: absolute;
+    width: 100vw;
+    height: 275vh;
+    z-index: -2;
+    top: -50px;
+    background-color: rgb(57, 62, 70);
+}
+.homeautoentire{
+    text-align: center;
+}
+.hometexttop{
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
