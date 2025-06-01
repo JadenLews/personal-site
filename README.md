@@ -29,4 +29,4 @@ This is my personal website, built using **React**, **HTML**, **CSS**, and **Jav
 
 
 ![Projects Section](assets/img1.png)
-![Home Page](assets/img2.png)
+![Experience](assets/img2.png)
